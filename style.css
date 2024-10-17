@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(177, 229, 239);
+    background-color: rgba(132, 189, 188, 0.758);
     font-family: "Roboto Condensed", sans-serif;
 }
 
@@ -8,7 +8,18 @@ body {
 }
 
 .cartao{
-    margin: 1rem 1rem;
+  margin: 1rem 1rem;  
+    background-color: rgba(101, 111, 222, 0.535);
+    height: 20rem;
+    flex-grow: 1;
+    flex-basis: calc(33% - 6rem);
+
+}
+
+.cartao__conteudo {
+text-align: center;
+background-color: rgb(167, 167, 222);
+height: 100%;
 }
 
 footer{
@@ -34,3 +45,8 @@ footer p {
   font-weight: <weight>;
   font-style: normal;
 }
+
+
+
+
+parei no minuto 6:54
